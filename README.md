@@ -54,14 +54,14 @@ JsonProofAlgorithm algorithm =
 JsonWebProof issuedForm = algorithm.issue("Gabriel", "Bauman");
 
 // Verify the proof.
-algorithm.verify(presentation);
+algorithm.verify(issuedForm);
 
 // Derive an immutable JsonWebProof in presentation form, ready for presentation to a verifier.
 // Selectively disclose only the payload at index 1 in the issuedForm JWP. 
 JsonWebProof presentationForm = algorithm.present(issuedForm, 1);
 
 // Verify the proof.
-algorithm.verify(presentation);
+algorithm.verify(presentationForm);
 ```
 
 ## Caveat
