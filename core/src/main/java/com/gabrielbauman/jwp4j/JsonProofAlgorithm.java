@@ -36,7 +36,7 @@ public interface JsonProofAlgorithm {
      * @param includePayloadIndexes indexes of payloads in the issued-form JWP to include in the presentation-form JWP
      * @return a presentation-form JWP with a valid proof
      */
-    JsonWebProof present(JsonWebProof issuedFormJwp, int... includePayloadIndexes);
+    JsonWebProof derive(JsonWebProof issuedFormJwp, int... includePayloadIndexes);
 
 
 }

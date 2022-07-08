@@ -33,7 +33,7 @@ public class JsonWebProofTest {
             }
 
             @Override
-            public JsonWebProof present(JsonWebProof issuedFormJwp, int... includePayloadIndexes) {
+            public JsonWebProof derive(JsonWebProof issuedFormJwp, int... includePayloadIndexes) {
                 return new JsonWebProof(
                         Map.of("alg",ALG_VALUE),
                         Map.of("nonce", "DUMMY"),

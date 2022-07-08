@@ -58,7 +58,7 @@ algorithm.verify(issuedForm);
 
 // Derive an immutable JsonWebProof in presentation form, ready for presentation to a verifier.
 // Selectively disclose only the payload at index 1 in the issuedForm JWP. 
-JsonWebProof presentationForm = algorithm.present(issuedForm, 1);
+JsonWebProof presentationForm = algorithm.derive(issuedForm, 1);
 
 // Verify the proof.
 algorithm.verify(presentationForm);

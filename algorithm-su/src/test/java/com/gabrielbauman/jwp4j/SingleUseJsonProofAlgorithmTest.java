@@ -53,7 +53,7 @@ public class SingleUseJsonProofAlgorithmTest {
                 .hasSize(2)
                 .containsExactly("Gabriel", "Bauman");
 
-        JsonWebProof presentation = algorithm.present(deserialized, 1);
+        JsonWebProof presentation = algorithm.derive(deserialized, 1);
         assertThat(presentation.isInPresentationForm())
                 .isTrue();
         assertThat(presentation.issuerHeader)

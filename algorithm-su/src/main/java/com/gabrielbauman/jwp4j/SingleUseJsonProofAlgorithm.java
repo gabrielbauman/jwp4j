@@ -160,7 +160,7 @@ public final class SingleUseJsonProofAlgorithm implements JsonProofAlgorithm {
         }
     }
 
-    public JsonWebProof present(JsonWebProof issuedFormJwp, int... includePayloadIndexes) {
+    public JsonWebProof derive(JsonWebProof issuedFormJwp, int... includePayloadIndexes) {
 
         if (null == issuedFormJwp)
             throw new IllegalArgumentException("issuedFormJwp cannot be null");
