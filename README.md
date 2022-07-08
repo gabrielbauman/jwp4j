@@ -29,7 +29,7 @@ To use this implementation, add the following to your `pom.xml`:
     <!-- The Single Use Json Proof Algorithm -->
     <dependency>
         <groupId>com.gabrielbauman.jwp4j</groupId>
-        <artifactId>jwp-alg-su</artifactId>
+        <artifactId>jwp-algorithm-su</artifactId>
     </dependency>
 </dependencies>
 ```
