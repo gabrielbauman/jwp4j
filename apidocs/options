@@ -1,5 +1,5 @@
 -classpath
-'/Users/gabrielbauman/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/gabrielbauman/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/gabrielbauman/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/gabrielbauman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/gabrielbauman/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/gabrielbauman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/gabrielbauman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/gabrielbauman/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/gabrielbauman/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar'
+'/Users/gabrielbauman/IdeaProjects/jwp-java/core/target/classes:/Users/gabrielbauman/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/gabrielbauman/.m2/repository/org/bitbucket/b_c/jose4j/0.7.4/jose4j-0.7.4.jar:/Users/gabrielbauman/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/gabrielbauman/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/Users/gabrielbauman/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/gabrielbauman/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/gabrielbauman/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/gabrielbauman/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/gabrielbauman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/gabrielbauman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/gabrielbauman/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/Users/gabrielbauman/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar'
 -encoding
 'UTF-8'
 -protected
@@ -7,21 +7,21 @@
 -source
 '11'
 -sourcepath
-'/Users/gabrielbauman/IdeaProjects/jwp-java/core/src/main/java'
+'/Users/gabrielbauman/IdeaProjects/jwp-java/algorithm-su/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'/Users/gabrielbauman/IdeaProjects/jwp-java/core/target/site/apidocs'
+'/Users/gabrielbauman/IdeaProjects/jwp-java/algorithm-su/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
-'JWP4J Core Library 1.0.0-SNAPSHOT API'
+'JWP4J Single-Use JPA 1.0.0-SNAPSHOT API'
 -linkoffline
-'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/gabrielbauman/IdeaProjects/jwp-java/core/target/javadoc-bundle-options'
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/gabrielbauman/IdeaProjects/jwp-java/algorithm-su/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'JWP4J Core Library 1.0.0-SNAPSHOT API'
+'JWP4J Single-Use JPA 1.0.0-SNAPSHOT API'
