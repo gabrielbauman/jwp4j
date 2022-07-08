@@ -13,6 +13,13 @@
 
     <artifactId>jwp4j-core</artifactId>
 
+    <name>JWP4J Core Library</name>
+
+    <description>
+        The core library handles JWP serialization and deserialization and lays the groundwork for JSON Proof Algorithm
+        implementations.
+    </description>
+
     <dependencies>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>

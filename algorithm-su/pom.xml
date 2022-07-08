@@ -13,9 +13,11 @@
 
     <artifactId>jwp4j-algorithm-su</artifactId>
 
+    <name>JWP4J Single-Use JPA</name>
+
     <description>
-        The Single Use (SU) proof method is based on composing multiple traditional JWS values into a single JWP proof
-        value. It enables a very simple form of selective disclosure without requiring any advanced cryptographic
+        The Single Use (SU) proof algorithm is based on composing multiple traditional JWS values into a single JWP
+        proof value. It enables a very simple form of selective disclosure without requiring any advanced cryptographic
         techniques. It does not support unlinkability if the same JWP is presented multiple times; therefore, when
         privacy is required the holder will need to interact with the issuer again to receive new single-use JWPs
         (dynamically or in batches).
